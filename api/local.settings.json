@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=mapmyresume;AccountKey=3DWVxfsfAW7FlLB4VJXwHMEWRICtDmbFponI9xraoJ5GqYkVof6GkZeh/RTA6Lib6DviYFrFW5Zw+ASte3McSA==;EndpointSuffix=core.windows.net",
+    "AZURE_STORAGE_CONTAINER_NAME": "test"
+  }
+}

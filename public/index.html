@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure Storage File Uploader</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Azure Storage File Uploader</h1>
+      <input type="file" id="file-input" accept=".json,.html" />
+      <label for="file-input" class="file-input-label">Select File</label>
+      <button id="upload-button" disabled>Upload</button>
+      <div id="progress-bar">
+        <div id="progress-bar-fill"></div>
+      </div>
+      <div id="notification"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
