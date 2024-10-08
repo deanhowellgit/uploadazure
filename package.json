@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "swa start public"
+  },
   "dependencies": {
     "dotenv": "^16.4.5"
   }
