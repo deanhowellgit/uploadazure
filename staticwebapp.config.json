@@ -3,6 +3,11 @@
     {
       "route": "/api/*",
       "methods": ["GET", "POST", "PUT", "DELETE"]
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
     }
   ],
   "navigationFallback": {
